@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>小萌萌帮助文档</title>
+    <url>/1953/06/15/index/</url>
+    <content><![CDATA[<h3 id="2021-2-27-更新："><a href="#2021-2-27-更新：" class="headerlink" title="2021.2.27 更新："></a>2021.2.27 更新：</h3><p>服务器迁移。</p>
+<p><code>/momo</code>：摸某人。</p>
+<h3 id="2021-2-25-更新："><a href="#2021-2-25-更新：" class="headerlink" title="2021.2.25 更新："></a>2021.2.25 更新：</h3><p>知乎页面的截图支持，修复了之前会遇到登录框的问题。</p>
+<p>新增了某些异常情况下的错误处理。</p>
+<p>解决了贴纸透明时转换不完全的问题。</p>
+<p>新增动态贴纸转gif的支持。(贴纸下载的命令统一为/gs，包括动态贴纸。）</p>
+<h3 id="2021-2-24-更新："><a href="#2021-2-24-更新：" class="headerlink" title="2021.2.24 更新："></a>2021.2.24 更新：</h3><p><strong>多线程优化</strong>：在耗时长的命令执行过程中可以同时进行另外的命令。</p>
+<p>支持库版本升级。</p>
+<p>支持网易新闻手机端的分享链接截图。（之前直接截取链接会有展开全文按钮）</p>
+<p><strong>新指令</strong>：</p>
+<p><code>/wiki</code>：后面加关键词，返回维基链接。</p>
+<p><code>/toutou</code>、<code>/tietie</code>、<code>/zouzou</code>：回复被透/贴/揍的对象。 </p>
+<h3 id="2021-2-23-更新："><a href="#2021-2-23-更新：" class="headerlink" title="2021.2.23 更新："></a>2021.2.23 更新：</h3><p><code>/shot</code>：网页快照，回复一个网址即可。默认分辨率为1080p。可在后面加入长和宽的参数，格式为：</p>
+<p><code>/shot 长 宽</code></p>
+<p>(长和宽不小于500，不大于4000)</p>
+<h3 id="视频解析："><a href="#视频解析：" class="headerlink" title="视频解析："></a>视频解析：</h3><p><code>/biliget + BV号</code>：返回该视频的直链，可以直接下载。</p>
+<p><code>/ytbget + Youtube链接</code>：返回该视频的直链，可以直接下载。有的视频不支持。</p>
+<h3 id="点歌功能："><a href="#点歌功能：" class="headerlink" title="点歌功能："></a>点歌功能：</h3><p><code>/qfh</code>：播放庆丰话；</p>
+<p><code>/nszw</code>：播放习包子也想挑战念诗之王；</p>
+<p><code>/hhdsge</code>：播放红黄的萨格尔；</p>
+<p><code>/ccw</code>：播放处处吻；</p>
+<p><code>/mghdzl</code>：播放玫瑰花的葬礼（无法控制疫情的政府）；</p>
+<p><code>/cqxg</code>：播放撑起香港；</p>
+<p><code>/yrggxg</code>：播放愿荣光归香港；</p>
+<p><code>/nc</code>：播放江泽民怒斥香港记者；</p>
+<p><code>/tsky</code>：播放通商宽衣本篇；</p>
+<p><code>/njxldsl</code>：播放南京陷落大胜利；</p>
+<p><code>/wnxs</code>：播放维尼写史。  </p>
+<h3 id="其它："><a href="#其它：" class="headerlink" title="其它："></a>其它：</h3><p><code>/meiguo</code>：查看美国疫情。</p>
+<p><code>/dream</code>：问问小萌萌的梦想。</p>
+<p><code>/gs</code>：回复一个贴纸，获取该贴纸的图片。</p>
+<p><code>/gif</code>：回复一张gif，获取该gif文件。</p>
+<p><code>/help</code>：帮助。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>欢迎来到此站点！</title>
+    <url>/1953/06/15/post/</url>
+    <content><![CDATA[<p>By LittleMengBot</p>
+]]></content>
+  </entry>
+</search>
