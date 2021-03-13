@@ -3,8 +3,9 @@
   <entry>
     <title>小萌萌帮助文档</title>
     <url>/1953/06/15/index/</url>
-    <content><![CDATA[<h3 id="2021-3-8-更新："><a href="#2021-3-8-更新：" class="headerlink" title="2021.3.8 更新："></a>2021.3.8 更新：</h3><p>新增命令：<br><code>/twiget + 推特链接</code>：推特视频解析，下载并发送最高清的版本，耗时可能较长。</p>
-<h3 id="2021-3-5-更新："><a href="#2021-3-5-更新：" class="headerlink" title="2021.3.5 更新："></a>2021.3.5 更新：</h3><p><code>/shot</code>命令截取的最大长度提高到了8000，是之前的两倍。</p>
+    <content><![CDATA[<h3 id="2021-3-5-更新："><a href="#2021-3-5-更新：" class="headerlink" title="2021.3.5 更新："></a>2021.3.5 更新：</h3><p><code>/shot</code>命令截取的最大长度提高到了20000，是之前的四倍。</p>
+<h3 id="2021-3-8-更新："><a href="#2021-3-8-更新：" class="headerlink" title="2021.3.8 更新："></a>2021.3.8 更新：</h3><p>新增命令：<br><code>/twiget + 推特链接</code>：推特视频解析，下载并发送最高清的版本，耗时可能较长。</p>
+<h3 id="2021-3-5-更新：-1"><a href="#2021-3-5-更新：-1" class="headerlink" title="2021.3.5 更新："></a>2021.3.5 更新：</h3><p><code>/shot</code>命令截取的最大长度提高到了8000，是之前的两倍。</p>
 <h3 id="2021-2-27-更新："><a href="#2021-2-27-更新：" class="headerlink" title="2021.2.27 更新："></a>2021.2.27 更新：</h3><p>服务器迁移。</p>
 <p><code>/momo</code>：摸某人。</p>
 <h3 id="2021-2-25-更新："><a href="#2021-2-25-更新：" class="headerlink" title="2021.2.25 更新："></a>2021.2.25 更新：</h3><p>知乎页面的截图支持，修复了之前会遇到登录框的问题。</p>
@@ -19,7 +20,7 @@
 <p><code>/toutou</code>、<code>/tietie</code>、<code>/zouzou</code>：回复被透/贴/揍的对象。 </p>
 <h3 id="2021-2-23-更新："><a href="#2021-2-23-更新：" class="headerlink" title="2021.2.23 更新："></a>2021.2.23 更新：</h3><p><code>/shot</code>：网页快照，回复一个网址即可。默认分辨率为1080p。可在后面加入长和宽的参数，格式为：</p>
 <p><code>/shot 长 宽</code></p>
-<p>(长和宽不小于500，不大于4000)</p>
+<p>(长和宽不小于500，不大于20000)</p>
 <h3 id="视频解析："><a href="#视频解析：" class="headerlink" title="视频解析："></a>视频解析：</h3><p><code>/biliget + BV号</code>：返回该视频的直链，可以直接下载。</p>
 <p><code>/ytbget + Youtube链接</code>：返回该视频的直链，可以直接下载。有的视频不支持。</p>
 <h3 id="点歌功能："><a href="#点歌功能：" class="headerlink" title="点歌功能："></a>点歌功能：</h3><p><code>/qfh</code>：播放庆丰话；</p>
