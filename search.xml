@@ -3,16 +3,16 @@
   <entry>
     <title>小萌萌帮助文档</title>
     <url>/1953/06/15/index/</url>
-    <content><![CDATA[<h3 id="2021-4-7-更新："><a href="#2021-4-7-更新：" class="headerlink" title="2021.4.7 更新："></a>2021.4.7 更新：</h3><p><code>/twiget</code> 或 <code>/twitter</code> 回复一个推特链接，解析该视频。  </p>
-<p><strong>使用方法例</strong>：<br><code>/twiget https://twitter.com/status/100666666666666?s=20</code><br><br></br><br>注意：bilibili解析功能近日极其不稳定。<br><br></br></p>
+    <content><![CDATA[<h3 id="2021-6-19-更新："><a href="#2021-6-19-更新：" class="headerlink" title="2021.6.19 更新："></a>2021.6.19 更新：</h3><ul>
+<li><p>废弃了<code>/twitter</code>、<code>/twiget</code>、<code>/ytbget</code>、<code>/bilibili</code>、<code>/biliget</code>的解析视频命令，统一更换为<code>/download</code>，由服务器下载，缺点是不能超过20M，未来会加入直链解析。  </p>
+</li>
+<li><p>使用Kotlin重写所有代码和指令，性能和缓存机制得到优化，并将所有代码开源在 <a href="https://github.com/LittleMengBot/MengProject%E3%80%82">https://github.com/LittleMengBot/MengProject。</a><br><br></br></p>
+</li>
+</ul>
 <h3 id="2021-3-25-更新："><a href="#2021-3-25-更新：" class="headerlink" title="2021.3.25 更新："></a>2021.3.25 更新：</h3><p><strong>新指令</strong>：</p>
 <p><code>/huangli</code>：查看今日黄历吉凶等信息。数据依照《钦定协纪辨方书》与香港天文台。</p>
 <p><code>/xingzuo + 星座</code>：查看今日星座运势。星座支持简繁体。</p>
 <p>命令使用例：<code>/xingzuo 双子座</code> 或 <code>/xingzuo 雙子座</code><br><br></br></p>
-<h3 id="2021-3-23-更新："><a href="#2021-3-23-更新：" class="headerlink" title="2021.3.23 更新："></a>2021.3.23 更新：</h3><p><code>/shot</code>命令新增了某些网站cookie提示的优化，不会截到框框了。<br><br></br></p>
-<h3 id="2021-3-5-更新："><a href="#2021-3-5-更新：" class="headerlink" title="2021.3.5 更新："></a>2021.3.5 更新：</h3><p><code>/shot</code>命令截取的最大长度提高到了20000，是之前的四倍。<br><br></br></p>
-<h3 id="2021-3-8-更新："><a href="#2021-3-8-更新：" class="headerlink" title="2021.3.8 更新："></a>2021.3.8 更新：</h3><p>新增命令：<br><code>/twiget + 推特链接</code>：推特视频解析，下载并发送最高清的版本，耗时可能较长。<br><br></br></p>
-<h3 id="2021-3-13-更新："><a href="#2021-3-13-更新：" class="headerlink" title="2021.3.13 更新："></a>2021.3.13 更新：</h3><p><code>/shot</code>命令截取的最大长度提高到了8000，是之前的两倍。<br><br></br></p>
 <h3 id="2021-2-27-更新："><a href="#2021-2-27-更新：" class="headerlink" title="2021.2.27 更新："></a>2021.2.27 更新：</h3><p>服务器迁移。</p>
 <p><code>/momo</code>：摸某人。<br><br></br></p>
 <h3 id="2021-2-25-更新："><a href="#2021-2-25-更新：" class="headerlink" title="2021.2.25 更新："></a>2021.2.25 更新：</h3><p>知乎页面的截图支持，修复了之前会遇到登录框的问题。</p>
@@ -23,25 +23,13 @@
 <p>支持库版本升级。</p>
 <p>支持网易新闻手机端的分享链接截图。（之前直接截取链接会有展开全文按钮）</p>
 <p><strong>新指令</strong>：</p>
-<p><code>/wiki</code>：后面加关键词，返回维基链接。</p>
+<p><code>/wiki</code>：后面加关键词，返回中文维基查找的结果。</p>
 <p><code>/toutou</code>、<code>/tietie</code>、<code>/zouzou</code>：回复被透/贴/揍的对象。<br><br></br></p>
 <h3 id="2021-2-23-更新："><a href="#2021-2-23-更新：" class="headerlink" title="2021.2.23 更新："></a>2021.2.23 更新：</h3><p><code>/shot</code>：网页快照，回复一个网址即可。默认分辨率为1080p。可在后面加入长和宽的参数，格式为：</p>
 <p><code>/shot 长 宽</code></p>
 <p>(长和宽不小于500，不大于20000)<br><br></br></p>
 <h3 id="视频解析："><a href="#视频解析：" class="headerlink" title="视频解析："></a>视频解析：</h3><p><code>/biliget + BV号</code>：返回该视频的直链，可以直接下载。</p>
-<p><code>/ytbget + Youtube链接</code>：返回该视频的直链，可以直接下载。有的视频不支持。</p>
-<p><br></br></p>
-<h3 id="点歌功能："><a href="#点歌功能：" class="headerlink" title="点歌功能："></a>点歌功能：</h3><p><code>/qfh</code>：播放庆丰话；</p>
-<p><code>/nszw</code>：播放习包子也想挑战念诗之王；</p>
-<p><code>/hhdsge</code>：播放红黄的萨格尔；</p>
-<p><code>/ccw</code>：播放处处吻；</p>
-<p><code>/mghdzl</code>：播放玫瑰花的葬礼（无法控制疫情的政府）；</p>
-<p><code>/cqxg</code>：播放撑起香港；</p>
-<p><code>/yrggxg</code>：播放愿荣光归香港；</p>
-<p><code>/nc</code>：播放江泽民怒斥香港记者；</p>
-<p><code>/tsky</code>：播放通商宽衣本篇；</p>
-<p><code>/njxldsl</code>：播放南京陷落大胜利；</p>
-<p><code>/wnxs</code>：播放维尼写史。<br><br></br></p>
+<p><code>/ytbget + Youtube链接</code>：返回该视频的直链，可以直接下载。有的视频不支持。<br><br></br></p>
 <h3 id="其它："><a href="#其它：" class="headerlink" title="其它："></a>其它：</h3><p><code>/meiguo</code>：查看美国疫情。</p>
 <p><code>/dream</code>：问问小萌萌的梦想。</p>
 <p><code>/gs</code>：回复一个贴纸，获取该贴纸的图片。</p>
