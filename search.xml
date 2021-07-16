@@ -3,10 +3,14 @@
   <entry>
     <title>小萌萌帮助文档</title>
     <url>/1953/06/15/index/</url>
-    <content><![CDATA[<h3 id="2021-6-19-更新："><a href="#2021-6-19-更新：" class="headerlink" title="2021.6.19 更新："></a>2021.6.19 更新：</h3><ul>
+    <content><![CDATA[<h3 id="2021-7-16-更新："><a href="#2021-7-16-更新：" class="headerlink" title="2021.7.16 更新："></a>2021.7.16 更新：</h3><ul>
+<li>新命令：<code>/replace</code>，使用方法：<br>回复一条含有文本的消息：<code>/replace 源内容 替换内容</code></li>
+<li>新命令：<code>/qr</code>，使用方法：<br>方法1：回复一张图片以<strong>解析</strong>该图片中所含有的二维码；<br>方法2：在命令后加上需要生成的文本以生成一张含有二维码的图片。<br>（注：方法1的优先度更高。）</li>
+</ul>
+<h3 id="2021-6-19-更新："><a href="#2021-6-19-更新：" class="headerlink" title="2021.6.19 更新："></a>2021.6.19 更新：</h3><ul>
 <li><p>废弃了<code>/twitter</code>、<code>/twiget</code>、<code>/ytbget</code>、<code>/bilibili</code>、<code>/biliget</code>的解析视频命令，统一更换为<code>/download</code>，由服务器下载，缺点是不能超过20M，未来会加入直链解析。  </p>
 </li>
-<li><p>使用Kotlin重写所有代码和指令，性能和缓存机制得到优化，并将所有代码开源在 <a href="https://github.com/LittleMengBot/MengProject%E3%80%82">https://github.com/LittleMengBot/MengProject。</a><br><br></br></p>
+<li><p>使用Kotlin重写所有代码和指令，性能和缓存机制得到优化，并将所有代码开源在 <a href="https://github.com/LittleMengBot/MengProject">https://github.com/LittleMengBot/MengProject</a> 。<br><br></br></p>
 </li>
 </ul>
 <h3 id="2021-3-25-更新："><a href="#2021-3-25-更新：" class="headerlink" title="2021.3.25 更新："></a>2021.3.25 更新：</h3><p><strong>新指令</strong>：</p>
